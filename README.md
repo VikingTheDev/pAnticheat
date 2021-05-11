@@ -2,7 +2,7 @@
 This a FiveM "anticheat" script utilizing the [screenshot-basic](https://github.com/citizenfx/screenshot-basic) resource by [citizenfx](https://github.com/citizenfx/).
 You **NEED** screenshot-basic and TxAdmin on your server for this script to work as intended.
 
-# What is is?
+# What is it?
 The script will capture a screenshot of a users game whenever they cause or are killed by an explosion. The screenshot will be sent to a discord channel via a webhook along with some other info for identification purposes. The screenshot should theoretically show any modmenus or other tools modders use that is drawn in/on the game.
 
 # Installation
