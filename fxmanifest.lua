@@ -1,5 +1,5 @@
-fx_version 'bodacious'
-game 'common'
+fx_version 'cerulean'
+game 'gta5'
 
 server_script "src/server/index.js"
 
