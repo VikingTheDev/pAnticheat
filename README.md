@@ -3,7 +3,7 @@ This a FiveM "anticheat" script utilizing the [screenshot-basic](https://github.
 You **NEED** screenshot-basic and TxAdmin on your server for this script to work as intended.
 
 # What is is?
-The script will capture a screenshot of a users game whenever they cause or are killed by an explosion. The screenshot will be sent to a discord channel via a webhook along with some other info for identification purposes. The screenshot should theoretically show any modmenus or other tools modders user that is injected into FiveM.
+The script will capture a screenshot of a users game whenever they cause or are killed by an explosion. The screenshot will be sent to a discord channel via a webhook along with some other info for identification purposes. The screenshot should theoretically show any modmenus or other tools modders use that is drawn in/on the game.
 
 # Installation
 1. Clone or download this repository and put it in your server resource folder
