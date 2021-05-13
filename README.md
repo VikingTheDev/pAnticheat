@@ -19,7 +19,7 @@ The script will capture a screenshot of a user's game whenever they cause or is 
 Allows 3rd party resources to trigger the script.
 
 ```js
-//Source (id) of the player you want to get a screenshot from
+//Source of the player you want to get a screenshot from
 let source = 1;
 //Title for the discord embed
 let title = 'Screenshot triggered by export';
