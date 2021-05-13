@@ -9,5 +9,5 @@ dependencies {
 }
 
 author 'Petrikov'
-description 'Filters out vulgar language'
+description 'Basic anticheat using screenshots'
 version '1.0.0'
