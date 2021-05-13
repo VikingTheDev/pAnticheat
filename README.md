@@ -12,3 +12,17 @@ The script will capture a screenshot of a user's game whenever they cause or is 
 ![Alt text](https://cdn.discordapp.com/attachments/673250530382053442/841426331853914142/unknown.png "Webhook ID and token")
 4. Add the webhook ID and token to the config file (src/server/config.json)
 5. Add ``ensure pAnticheat`` and ``ensure screenshot-basic`` to your ``server.cfg`` file
+
+# Exports
+
+### sendScreenshot
+Allows 3rd party resources to trigger the script.
+
+```js
+//Source (id) of the player you want to get a screenshot from
+let source = 1;
+//Title for the discord embed
+let title = 'Screenshot triggered by export';
+
+exports.pAnticheat.sendScreenshot(src, title);
+```
