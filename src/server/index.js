@@ -47,7 +47,7 @@ function dNotif(src, attachment, title) {
   Hook.send(embed);
 }
 
-//simple function to grab all of a users identifiers
+//simple function to grab all of a user's identifiers
 function getIdentifiers(src) {
   let x;
   for(let i = 0; i < GetNumPlayerIdentifiers(src); i++) {
@@ -59,3 +59,12 @@ function getIdentifiers(src) {
   }
   return x;
 }
+
+exports('sendScreenshot', (src, title) => {
+  exports['screenshot-basic'].requestClientScreenshot(src, {}, (err, data) => {
+    //Encode the base64 data
+    const imageStream = new Buffer.from(data.split("base64,")[1],'base64');
+    //send to the webhook
+    dNotif(src, imageStream, title);
+  })
+})

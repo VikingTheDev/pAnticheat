@@ -1,10 +1,15 @@
 # For projects using Nanoc (http://nanoc.ws/)
 
 # Default location for output (needs to match output_dir's value found in nanoc.yaml)
-output/
+node_modules/
 
 # Temporary file directory
 tmp/nanoc/
 
 # Crash Log
 crash.log
+
+# Other stuff
+src/server/config.json
+.yarn.installed
+yarn.lock
